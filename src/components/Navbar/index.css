@@ -1,0 +1,27 @@
+header {
+    border-bottom: solid 2px gray;
+    background-color: var(--color-primary);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.mywebsite-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.mywebsite-nav-content #links {
+    text-decoration: none;
+    color: var(--link);
+    height: 25px;
+}
+
+.mywebsite-nav-content #links:hover {
+    text-decoration: none;
+    color: var(--link-hover);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
