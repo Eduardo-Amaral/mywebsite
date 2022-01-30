@@ -2,8 +2,16 @@ header {
     border-bottom: solid 2px gray;
     background-color: var(--color-primary);
     height: 50px;
+    width: 100%;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+#logo {
+    font-family: 'Major Mono Display', monospace;
+    user-select: none;
 }
 
 .mywebsite-nav-content {

@@ -15,7 +15,7 @@ function Projects() {
                 <ProjectCard text={project_3.text} title={project_3.title} image={project_3.image}/>
             </div>
             <div className="col-sm-12 col-lg-6 mb-3">
-                <ProjectCard text={'text'} title={'title'} image={require('assets/dsmovie.png')}/>
+                <ProjectCard text={'Lorem ipsum, etc.Lorem ipsum, etc.Lorem ipsum, etc.Lorem ipsum, etc.Lorem ipsum, etc.Lorem ipsum, etc.Lorem ipsum, etc.Lorem ipsum, etc.'} title={'Em Desenvolvimento'} image={require('assets/comingsoon.jpeg')}/>
             </div>
             </div>
         </div>

@@ -1,6 +1,5 @@
 #project-card {
     margin-top: 100px;
-    border-radius: 20px;
     background-color: var(--color-primary);
     border: solid black 1px;
 }

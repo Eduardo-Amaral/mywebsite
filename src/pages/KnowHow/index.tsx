@@ -1,6 +1,11 @@
+import Tecnologies from "components/Technologies";
+
+
 function KnowHow() {
     return (
-        <h1>Conhecimentos</h1>
+        <>
+            <Tecnologies/>
+        </>
     )
 }
 

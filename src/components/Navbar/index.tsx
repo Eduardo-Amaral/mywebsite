@@ -6,6 +6,7 @@ function Navbar() {
       <header>
         <nav className='container'>
           <div className='mywebsite-nav-content'>
+          <h1 id="logo">EA</h1>
             <Link id="links" to={`/`}>
               <p >Início</p>
             </Link>
