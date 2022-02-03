@@ -16,4 +16,10 @@ export const project_3 = {
     image: require('assets/calculator.png')
 }
 
+export const tech_1 = {
+    image: require('assets/calculator.png'),
+    text: 'Testando o bagulho',
+    title: 'Título'
+}
+
 
