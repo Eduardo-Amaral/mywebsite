@@ -13,8 +13,8 @@ function ProjectCard(props: SetProps) {
                 <img id="project-img" src={props.image} alt="" />
                 <p>{props.text}</p>
                 <div id="project-links">
-                    <a href="">Ver Diretório</a>
-                    <a href="">Acessar</a>
+                    <a href="https://github.com/Eduardo-Amaral/">Ver Diretório</a>
+                    <a href="https://github.com/Eduardo-Amaral/">Acessar</a>
                 </div>
             </div>
     )
