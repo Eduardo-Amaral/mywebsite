@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Saira+Condensed:wght@300&display=swap');
 :root {
     --color-primary: rgb(235, 235, 235);
+    --color-secundary: rgb(167, 167, 167);
     --link: rgb(105, 105, 105);
     --link-hover: black;
 }

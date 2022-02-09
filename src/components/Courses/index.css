@@ -1,36 +1,36 @@
-#tech {
+#course {
     border: solid 1px black;
     display: flex;
     height: 100%;
-    background-color: var(--color-primary);
+    background-color: var(--color-secundary);
 }
 
-#tech-img {
+#course-img {
     width: 200px;
     padding: 20px;
 }
 
-#tech-text {
+#course-text {
     width: 100%;
     padding: 0px 20px;
 }
 
-#tech-text h3 {
+#course-text h3 {
     width: 100%;
     text-align: center;
 }
 
-#tech-text p {
+#course-text p {
     text-align: justify;
     text-indent: 1em;
 }
 
 @media (max-width:500px) {
-    #tech {
+    #course {
         display: grid;
         place-items: center;
     }
-    #tech-img {
+    #course-img {
         padding: 10px;
     }
 }

@@ -3,7 +3,7 @@ import './index.css';
 function Navbar() {
   return (
     <>
-      <header>
+      <header >
         <nav className='container'>
           <div className='mywebsite-nav-content'>
           <h1 id="logo">EA</h1>

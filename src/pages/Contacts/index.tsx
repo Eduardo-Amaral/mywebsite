@@ -1,6 +1,19 @@
+import "./index.css"
 function Contacts() {
     return (
-        <h1>Contatos</h1>
+        <>
+        <br />
+        <br />
+        <br />
+            <div id="contact-container">
+                <h1>Fale Comigo!</h1>
+                <div id="contact-content">
+                    <a target="_blank" href="https://github.com/Eduardo-Amaral"><img className="img-fluid" src={require("assets/github.png")} alt="github" /></a>
+                    <a target="_blank" href=""><img className="img-fluid" src={require("assets/linkedin.png")} alt="linkedin" /></a>
+                    <a target="_blank" href=""><img className="img-fluid" src={require("assets/email.png")} alt="email" /></a>
+                </div>
+            </div>
+        </>
     )
 }
 

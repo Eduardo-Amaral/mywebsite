@@ -9,7 +9,7 @@ function Tecnologies(props: SetProps) {
     return (
         <>
             <section id="tech">
-            <img className='img-fluid' id="tech-img" src={props.image} alt="teste" />
+            <img id="tech-img" src={props.image} alt="imagem da tecnologia" />
                 <div id="tech-text">
                     <h3>{props.title}</h3>
                      <p>{props.text}</p>
