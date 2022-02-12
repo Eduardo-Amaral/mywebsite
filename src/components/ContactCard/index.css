@@ -1,0 +1,21 @@
+#contact {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+#contact img {
+    margin-bottom: 20px;
+}
+
+@media (max-width:575px) {
+    #contact img {
+      margin-bottom:10px;
+    }
+    #contact{
+       padding:30px;
+      }
+    
+}

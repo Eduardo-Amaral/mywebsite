@@ -3,8 +3,8 @@ import { project_1,project_2,project_3 } from "types/projects";
 
 function Projects() {
     return (
-        <div className="container">
-            <div className="row">
+        <div className="container pt-5">
+            <div className="row pt-5">
             <div className="col-sm-12  col-lg-6 mb-3">
                 <ProjectCard text={project_1.text} title={project_1.title} image={project_1.image}/>
             </div>

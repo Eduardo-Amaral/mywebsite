@@ -1,7 +1,8 @@
 #project-card {
-    margin-top: 100px;
-    background-color: var(--color-primary);
-    border: solid black 1px;
+    padding-top: 0px;
+    margin-bottom:20px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+    
 }
 
 #project-card h3 {
@@ -16,7 +17,8 @@
 }
 
 #project-img {
-    width: 100%;
+    width: 90%;
+    margin: 0 5%;
 }
 
 #project-links {
