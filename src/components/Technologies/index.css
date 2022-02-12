@@ -1,8 +1,9 @@
 #tech {
-    border: solid 1px black;
     display: flex;
     height: 100%;
-    background-color: var(--color-primary);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+ 
+    
 }
 
 #tech-img {

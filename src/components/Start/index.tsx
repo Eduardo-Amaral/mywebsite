@@ -10,8 +10,10 @@ function Start() {
 
                 <section id="start-img">
                     <img className="img-fluid" src={require("assets/eu.png")} alt="" />
-                    <h2>Eduardo Amaral</h2>
-                    <span>Desenvolvedor Web</span>
+                    <div>
+                        <h2>Eduardo Amaral</h2>
+                        <span>Desenvolvedor Web</span>
+                    </div>
                 </section>
 
                 <section id="start-text">
