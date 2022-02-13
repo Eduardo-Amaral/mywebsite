@@ -1,5 +1,5 @@
 header {
-    border-bottom: solid 2px gray;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
     background-color: var(--color-primary);
     height: 50px;
     width: 100%;
@@ -34,7 +34,7 @@ header {
     text-underline-offset: 5px;
 }
 
-@media (max-width:850px) {
+@media (max-width:1000px) {
     .links {
         display: none;
     }

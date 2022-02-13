@@ -1,8 +1,6 @@
 #project-card {
-    padding-top: 0px;
-    margin-bottom:20px;
-    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
-    
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 #project-card h3 {
@@ -37,4 +35,15 @@
     text-decoration: underline;
     color: var(--link-hover);
     padding: 10px;
+}
+
+@media (min-width:1000px) {
+    #project-card {
+        padding: 20px;
+    }
+    #project-card:hover{
+        padding: 0;
+        font-size: 120%;
+    }
+   
 }

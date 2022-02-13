@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Saira+Condensed:wght@300&display=swap');
 :root {
-    --color-primary: rgb(235, 235, 235);
-    --color-secundary: rgb(167, 167, 167);
-    --link: rgb(105, 105, 105);
-    --link-hover: black;
+    --color-primary: rgb(255, 255, 255);
+    --link: rgb(63, 62, 62);
+    --link-hover: rgb(0, 0, 0);
 }
 
 * {
@@ -16,8 +15,8 @@
 
 html,
 body {
-    background-color: white;
-}
+      background-color: white;
+  }
 
 a,
 a:hover {

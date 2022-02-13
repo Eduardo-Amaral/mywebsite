@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React, {useEffect, useState } from "react";
 import {BrowserRouter,Route,useLocation,Routes} from "react-router-dom";
 //@ts-ignore
 import { TransitionGroup, CSSTransition } from "react-transition-group";
@@ -19,13 +19,12 @@ const AnimatedSwitch = () => {
 
   console.log("location", location);
 
-  const [transitionName] = useState("next");
-  /*
+  const [transitionName, setTransitionName] = useState("prev");
   useEffect(() => {
     if (transitionName === "next") setTransitionName("prev");
     if (transitionName === "prev") setTransitionName("next");
   }, [location]);
-  */
+  
 
   return (
     <TransitionGroup component={Main}>

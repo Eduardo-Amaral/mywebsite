@@ -10,18 +10,9 @@ function BurguerMenu(props:SetProps) {
         setMode(!active);
     };
 
-    function ToggleRed() {
-        const nav = document.getElementById('testando');
-        if (nav != null){
-            nav.classList.toggle('hidden');
-        }
-    }
-
-
-
     return (
         <>
-            <div id="button" className={active ? 'icon iconActive' : 'icon'} onClick={() => { ToggleMode(); ToggleRed(); }}>
+            <div id="button" className={active ? 'icon iconActive' : 'icon'} onClick={ToggleMode}>
                 <div className="hamburguer"></div>
             </div>
             <div className={active ? 'menu menuOpen' : 'menu menuClose'}>

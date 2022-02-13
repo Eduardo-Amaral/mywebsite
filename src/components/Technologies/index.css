@@ -1,9 +1,7 @@
 #tech {
     display: flex;
     height: 100%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
- 
-    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 #tech-img {
@@ -33,5 +31,10 @@
     }
     #tech-img {
         padding: 10px;
+    }
+}
+@media (min-width:1000px){
+    #tech:hover{
+        font-size: 110%;
     }
 }
