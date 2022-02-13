@@ -4,18 +4,23 @@
     justify-content: center;
     text-align: center;
     padding: 50px;
+    margin-bottom:500px;
+    min-height:197px;
 }
 
 #contact img {
     margin-bottom: 20px;
 }
-
+@media (max-width:1200px){
+    #contact {
+        margin-bottom:0px;
+    }
+}
 @media (max-width:575px) {
+    #contact{
+        padding:25px;
+       }
     #contact img {
       margin-bottom:10px;
     }
-    #contact{
-       padding:30px;
-      }
-    
 }
