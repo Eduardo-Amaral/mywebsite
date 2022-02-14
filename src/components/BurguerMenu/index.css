@@ -58,14 +58,10 @@
     .list .listItems li {
         cursor: pointer;
     }
-    
-    .list .listItems li:hover {
-        font-weight: 800;
-    }
-    
-    .burguer-links {
+
+    .burguer-links, .burguer-links p{
         text-decoration: none;
-        color: black;
+        color: rgb(5, 5, 5);
     }
     
     .icon.iconActive .hamburguer {
@@ -111,16 +107,4 @@
         border-bottom: solid 2px gray;
         box-shadow: 10px 0px 69px 0px rgba(0, 0, 0, 0.59);
         transition:1s;
-    }
-    
-    #testando {
-        background-color: red;
-        height: 400px;
-        width: 500px;
-        position: absolute;
-        right: 400px;
-    }
-    
-    .hidden {
-        display: none;
     }

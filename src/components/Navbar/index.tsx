@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom';
 import './index.css';
 function Navbar() {
 
-  const Test = () => {
-    
-  }
-
+ 
   return (
     <>
       <header >

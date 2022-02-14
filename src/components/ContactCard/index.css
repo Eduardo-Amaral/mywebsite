@@ -24,3 +24,9 @@
       margin-bottom:10px;
     }
 }
+@media (min-width:1000px){
+    #contact:hover {
+        width:110%;
+        font-size:110%;
+    }
+}

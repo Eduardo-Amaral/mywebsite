@@ -98,3 +98,9 @@
             padding: 25px;
         }
     }
+    @media (min-width:1000px){
+        #start-img img:hover,#start-img:hover{
+            width:105%;
+            font-size:110%;
+        }
+    }
