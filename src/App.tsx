@@ -23,7 +23,7 @@ const AnimatedSwitch = () => {
   useEffect(() => {
     if (transitionName === "next") setTransitionName("prev");
     if (transitionName === "prev") setTransitionName("next");
-  }, [location]);
+  }, [transitionName]);
   
 
   return (
