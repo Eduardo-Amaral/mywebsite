@@ -4,6 +4,8 @@ interface SetProps {
     image: string;
     title: string;
     text: string;
+    repo: string;
+    link: string;
 }
 
 function ProjectCard(props: SetProps) {
@@ -13,8 +15,8 @@ function ProjectCard(props: SetProps) {
                 <img id="project-img" src={props.image} alt="" />
                 <p>{props.text}</p>
                 <div id="project-links">
-                    <a href="https://github.com/Eduardo-Amaral/">Ver Diretório</a>
-                    <a href="https://github.com/Eduardo-Amaral/">Acessar</a>
+                    <a rel="noreferrer" target="_blank" href={props.repo}>Ver Diretório</a>
+                    <a rel="noreferrer" target="_blank" href={props.link}>Acessar</a>
                 </div>
             </div>
     )
