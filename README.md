@@ -5,5 +5,5 @@ https://eduardoamaral.netlify.app
 ## Stack:
 
 - Typescript
-- React(Tsx)
+- React(tsx)
 - Bootstrap
