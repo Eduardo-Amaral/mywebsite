@@ -2,7 +2,7 @@
 https://eduardoamaral.netlify.app
 
 
-##Stack:
+## Stack:
 
 Typescript
 React(Tsx)
